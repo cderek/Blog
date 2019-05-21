@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A blog by derek]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>http://www.chengeek.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 May 2019 14:23:22 GMT</lastBuildDate><item><title><![CDATA[Javascript事件流：捕获、目标、冒泡]]></title><description><![CDATA[捕获事件流：Netscape提出的事件流，即事件由页面元素接收，逐级向下，传播到最具体的元素。冒泡事件流：IE提出的事件流，即事件由最具体的元素接收，逐级向上，传播到页面。两种事件流在DOM2级事件模型中得到了统一，相较于DOM0级事件模型，DOM…]]></description><link>http://www.chengeek.com//Javascript事件流：捕获、目标、冒泡/</link><guid isPermaLink="false">http://www.chengeek.com//Javascript事件流：捕获、目标、冒泡/</guid><pubDate>Mon, 19 Oct 2015 19:52:18 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;捕获事件流&lt;/strong&gt;：Netscape提出的事件流，即事件由页面元素接收，逐级向下，传播到最具体的元素。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[A blog by derek]]></title><description><![CDATA[Personal blog.]]></description><link>http://www.chengeek.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 21 May 2019 18:29:29 GMT</lastBuildDate><item><title><![CDATA[Javascript事件流：捕获、目标、冒泡]]></title><description><![CDATA[捕获事件流：Netscape提出的事件流，即事件由页面元素接收，逐级向下，传播到最具体的元素。冒泡事件流：IE提出的事件流，即事件由最具体的元素接收，逐级向上，传播到页面。两种事件流在DOM2级事件模型中得到了统一，相较于DOM0级事件模型，DOM…]]></description><link>http://www.chengeek.com//Javascript事件流：捕获、目标、冒泡/</link><guid isPermaLink="false">http://www.chengeek.com//Javascript事件流：捕获、目标、冒泡/</guid><pubDate>Mon, 19 Oct 2015 19:52:18 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;捕获事件流&lt;/strong&gt;：Netscape提出的事件流，即事件由页面元素接收，逐级向下，传播到最具体的元素。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;冒泡事件流&lt;/strong&gt;：IE提出的事件流，即事件由最具体的元素接收，逐级向上，传播到页面。&lt;/p&gt;
 &lt;p&gt;两种事件流在DOM2级事件模型中得到了统一，相较于DOM0级事件模型，DOM2级有着如下特点：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -7,7 +7,6 @@
 &lt;li&gt;规定了事件流的三个阶段：捕获阶段、目标阶段、冒泡阶段　　&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;!-- more --&gt;
 &lt;hr&gt;
 &lt;h3&gt;事件的触发有三个阶段&lt;/h3&gt;
 &lt;ul&gt;
@@ -77,7 +76,6 @@ toolbar&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;h3&gt;两种情况&lt;/h3&gt;
 &lt;p&gt;清除浮动包括清除子元素的浮动和清除上级元素的浮动，其中清除上级元素的浮动，只需设置clear为both就可以了，而清除子元素的浮动则可以用空标签法、clearfix方法或overflow方法。
 因清除上级元素的浮动比较简单，而空标签法清除子元素浮动会增加额外标签，所以在这里主要说clearfix方法、overflow方法及偶然发现的inline-block方法。&lt;/p&gt;
-&lt;!-- more --&gt;
 &lt;h3&gt;为什么要清除浮动&lt;/h3&gt;
 &lt;p&gt;一个块级元素的高度如果没有设置height，那么其高度就是由里面的子元素来撑开的，如果子元素使用浮动，脱离了标准的文档流，那么父元素的高度会将其忽略，使用firebug查看下如果不清除浮动，父元素会出现高度不够，那样如果设置border或者background都得不到正确的解析。&lt;/p&gt;
 &lt;p&gt;浮动的三个特点很重要。&lt;/p&gt;
@@ -161,7 +159,6 @@ CSS3里面对这个规范做了改动，称之为： flow root ，并且对触�
 &lt;/ul&gt;
 &lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[azure push notification and sent email to ionic app]]></title><description><![CDATA[Ionic is a powerful HTML5 native app development framework that helps you build native-feeling mobile apps all with web technologies like…]]></description><link>http://www.chengeek.com//azure push notification and sent email to ionic app/</link><guid isPermaLink="false">http://www.chengeek.com//azure push notification and sent email to ionic app/</guid><pubDate>Thu, 28 May 2015 22:40:32 GMT</pubDate><content:encoded>&lt;hr&gt;
 &lt;p&gt;Ionic is a powerful HTML5 native app development framework that helps you build native-feeling mobile apps all with web technologies like HTML, CSS, and Javascript.Ionic is focused mainly on the look and feel, and Integration Cordova、Angular、Node、Grunt、Bowser、Sass .Mixed development solution.&lt;/p&gt;
-&lt;!--more--&gt;
 &lt;h2&gt;&lt;a href=&quot;http://blogs.msdn.com/b/azuremobile/archive/2014/06/17/push-notifications-to-phonegap-apps-using-notification-hubs-integration.aspx&quot;&gt;Push Notifications to PhoneGap Apps using Notification Hubs Integration&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Ionic apps have some access to native resources, such as push notifications, the accelerometer, camera, storage, geolocation, the in-app browser. Ionic apps feel a bit like Web apps, but often with the behavior of native device apps.
 To learn how to use Mobile Services and Azure Notification Hubs to send push notifications to a Ionic app,see &lt;a href=&quot;https://github.com/Azure/mobile-services-samples/tree/master/TodoListNotifications&quot;&gt;TodoList notifications sample for PhoneGap&lt;/a&gt;
@@ -190,7 +187,6 @@ Your can also use the &lt;a href=&quot;http://aws.amazon.com/cn/ses/developer-re
 &lt;li&gt;当在一个函数内定义另外一个函数就会产生闭包&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;!-- more --&gt;
 &lt;p&gt;ECMAScript闭包模型
 在ECMAscript的脚本的函数运行时，每个函数关联都有一个执行上下文场景(Execution Context) ，这个执行上下文场景中包含三个部分&lt;/p&gt;
 &lt;blockquote&gt;
@@ -262,7 +258,6 @@ myClosure&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- more --&gt;
 &lt;p&gt;&lt;strong&gt;Reflow&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Reflow&lt;/strong&gt; 「回流」，在某一个 DOM 元素的位置发生改变后触发，而且它会重新计算所有元素的位置和在页面中的占有的面积，会引起页面某一个部分甚至整个页面的重新渲染。改变某一个元素会影响它所有的子节点 (children)、祖先节点 (ancestors) 及兄弟节点(siblings)。&lt;/li&gt;
