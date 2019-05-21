@@ -2,13 +2,13 @@
 title: azure push notification and sent email to ionic app
 date: "2015-05-28T22:40:32.169Z"
 tags: [azure,ionic,app] 
-description: [service]
+description: [hybrid app with ionic]
 ---
 
 
 ------
 Ionic is a powerful HTML5 native app development framework that helps you build native-feeling mobile apps all with web technologies like HTML, CSS, and Javascript.Ionic is focused mainly on the look and feel, and Integration Cordova、Angular、Node、Grunt、Bowser、Sass .Mixed development solution.
-<!--more-->
+
 ## [Push Notifications to PhoneGap Apps using Notification Hubs Integration][1]
 Ionic apps have some access to native resources, such as push notifications, the accelerometer, camera, storage, geolocation, the in-app browser. Ionic apps feel a bit like Web apps, but often with the behavior of native device apps.
 To learn how to use Mobile Services and Azure Notification Hubs to send push notifications to a Ionic app,see [TodoList notifications sample for PhoneGap][2]

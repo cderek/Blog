@@ -2,7 +2,7 @@
 title: JavaScript闭包与应用场景
 date: 2014-12-03 12:20:37
 tags: [JavaScript, 闭包]
-description: [frontend]
+description: [闭包及其应用场景]
 ---
 
 闭包（Closure）是词法闭包（Lexical Closure）的简称。
@@ -13,7 +13,6 @@ description: [frontend]
 > * 闭包就是就是函数的“堆栈”在函数返回后并不释放，我们也可以理解为这些函数堆栈并不在栈上分配而是在堆上分配
 > * 当在一个函数内定义另外一个函数就会产生闭包
 
-<!-- more -->
 
 ECMAScript闭包模型
 在ECMAscript的脚本的函数运行时，每个函数关联都有一个执行上下文场景(Execution Context) ，这个执行上下文场景中包含三个部分

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `A blog by derek`,
     author: `Derek`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Personal blog.`,
     siteUrl: `http://www.chengeek.com/`,
     social: {
       twitter: `cderek_cheng`,

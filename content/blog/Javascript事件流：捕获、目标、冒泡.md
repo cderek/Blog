@@ -2,7 +2,7 @@
 title: Javascript事件流：捕获、目标、冒泡
 date: 2015-10-19 19:52:18
 tags: [JavaScript事件]
-description: [frontend]
+description: [Javascript事件流]
 ---
 
 **捕获事件流**：Netscape提出的事件流，即事件由页面元素接收，逐级向下，传播到最具体的元素。
@@ -13,7 +13,6 @@ description: [frontend]
 > * 允许在某个元素上绑定多个同类型的事件
 > * 规定了事件流的三个阶段：捕获阶段、目标阶段、冒泡阶段　　
 
-<!-- more -->
 
 ---
 　　　
