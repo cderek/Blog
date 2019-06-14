@@ -37,6 +37,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "disqus-react": "^1.0.5",
     "prettier": "^1.17.1"
   },
   "homepage": "https://cderek.github.io",
@@ -51,11 +52,10 @@
     "url": "https://github.com/cderek/medium.git"
   },
   "scripts": {
-    "build": "gatsby build",
+    "build": "gatsby build && cp ./CNAME ./public/",
     "develop": "gatsby develop",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d public",
-    "build": "gatsby build && cp ./CNAME ./public/",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop"
   }
