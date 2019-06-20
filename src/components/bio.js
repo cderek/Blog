@@ -43,7 +43,7 @@ function Bio() {
                 {author}.
               </a>
               {' '}
-              Get on, no time to explain
+              Keep It Simple Stupid
             </p>
           </div>
         )
