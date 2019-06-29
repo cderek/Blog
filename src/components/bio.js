@@ -37,13 +37,13 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <p style={{ maxWidth: 210 }}>
+            <p style={{ maxWidth: 230 }}>
               Personal blog by{' '}
               <a href={`https://mobile.twitter.com/${social.twitter}`}>
                 {author}.
               </a>
               {' '}
-              Keep It Simple Stupid
+              Reach your own conclusions
             </p>
           </div>
         )
